@@ -26,7 +26,7 @@ namespace Escape_From_Bombs
             ----------------------------------------------------------            
             |  NASIL OYNANIR?                                        |
             |                                                        |
-            |  -> W-A-S-D ile engellere çarpmadan hareket et         |
+            |  -> W-A-S-D ile bombalara basmadan hareket et          |
             |  -> Hedefin bombalara basmadan 10 adet altın toplamak  |              
             |  -> Eğer bombalara basarsan kaybedersin                |
             |  -> 3 adet süper gücün var, ok tuşları ile yönü        |
@@ -213,7 +213,7 @@ namespace Escape_From_Bombs
                     {
                         coin++;
                     }
-                    if (coin == 5)
+                    if (coin == 10)
                         break;
                 }
                 Task.Delay(400).Wait();
