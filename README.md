@@ -1,10 +1,25 @@
 # Escape From Bombs
 Mini console game <br>
 Try to earn 5 coins without hitting the bombs.
+
+###
+
+## Install and Play
+
+<img src="https://github.com/user-attachments/assets/f497f537-f918-4a2b-8624-61c7dc56aed9">
+
+###
+
+
+
 ## Gameplay
 
-![Animation](https://github.com/user-attachments/assets/1e510c5a-5196-45e9-b626-51469b639fdb)
-<br>
+<div align="center">
+<img src="https://github.com/user-attachments/assets/1e510c5a-5196-45e9-b626-51469b639fdb">
+</div>
+
+###
+
 ## Screenshots
 
 <div align="center">
