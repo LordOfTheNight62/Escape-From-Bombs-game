@@ -2,4 +2,5 @@
 
 ## Gameplay
 
-![Animation](https://github.com/user-attachments/assets/43ce268a-8565-4fff-b775-b72312f2f596)
+![Animation](https://github.com/user-attachments/assets/6d2a3151-5812-4c51-b0c5-4f3dda1182ae)
+
