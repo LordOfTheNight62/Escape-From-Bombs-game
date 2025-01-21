@@ -11,20 +11,15 @@ Try to earn 5 coins without hitting the bombs.
 
 ###
 
-
-
 ## Gameplay
-
-<div align="center">
-<img src="https://github.com/user-attachments/assets/1e510c5a-5196-45e9-b626-51469b639fdb">
-</div>
+![game](https://github.com/user-attachments/assets/64ca7e05-02d0-4b6b-8bdd-59f99f75c0cf)
 
 ###
 
 ## Screenshots
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/8d42744c-64c2-432c-8c33-0f6b1b5d38ed">
+<img src="https://github.com/user-attachments/assets/a5885aa0-9e9d-4f72-9455-6c218323016c">
 <br><br>
 <img src="https://github.com/user-attachments/assets/070e0025-31df-4e47-a333-5926663c2560">
 <br><br>
