@@ -5,7 +5,7 @@ Try to earn 5 coins without hitting the bombs.
 ###
 
 ## Install and Play
-<a href="https://www.mediafire.com/file/zulpxduu1ey2qoz/Escape+From+Bombs+Installer.exe/file" target="_blank">
+<a href="https://www.mediafire.com/file/f12tj4d7rv88j4c/Escape+From+Bombs+Installer.exe/file" target="_blank">
 <img src="https://github.com/user-attachments/assets/f497f537-f918-4a2b-8624-61c7dc56aed9">
 </a>
 
