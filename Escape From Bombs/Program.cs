@@ -128,6 +128,13 @@ namespace Escape_From_Bombs
                             break;
                     }
 
+                    if (IsCoin((player.x, player.y), map))
+                    {
+                        coin++;
+                    }
+                    if (coin == 10)
+                        break;
+
                     if (IsGameOver((player.x, player.y), map))
                     {
                         isGameOverState = true;
@@ -208,13 +215,6 @@ namespace Escape_From_Bombs
                             }
                             break;
                     }
-
-                    if (IsCoin((player.x, player.y), map))
-                    {
-                        coin++;
-                    }
-                    if (coin == 10)
-                        break;
                 }
                 Task.Delay(400).Wait();
             }
