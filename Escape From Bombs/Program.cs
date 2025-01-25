@@ -6,7 +6,9 @@ namespace Escape_From_Bombs
     {
         static void Main(string[] args)
         {
+            Console.SetWindowSize(800, 500);
             Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.CursorVisible = false;
             string[,] map = new string[25, 50];
             int rows = map.GetLength(0), columns = map.GetLength(1);
             for (int i = 0; i < rows; i++)
@@ -57,10 +59,11 @@ namespace Escape_From_Bombs
             Console.WriteLine(welcomeText);
             Console.ResetColor();
             Console.ReadKey(true);
+            Console.Clear();
 
             while (!isGameOverState)
             {
-                Console.Clear();
+                Console.SetCursorPosition(0, 0);
 
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine($"Coin {coin}/10");
@@ -180,19 +183,19 @@ namespace Escape_From_Bombs
                             }
                             break;
                         case ConsoleKey.Spacebar:
-                            if(superPower <= 0)
+                            if (superPower <= 0)
                             {
                                 break;
                             }
                             superPower--;
-                            if(arrow.y < player.y)
+                            if (arrow.y < player.y)
                             {
                                 for (int i = 0; i < player.y; i++)
                                 {
                                     map[player.x, i] = ".";
                                 }
                             }
-                            else if(arrow.y > player.y)
+                            else if (arrow.y > player.y)
                             {
                                 for (int i = player.y; i < map.GetLength(1); i++)
                                 {
@@ -216,7 +219,7 @@ namespace Escape_From_Bombs
                             break;
                     }
                 }
-                Task.Delay(400).Wait();
+                Task.Delay(300).Wait();
             }
 
             Console.Clear();
